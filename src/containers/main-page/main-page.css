@@ -1,0 +1,7 @@
+.main__page {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(270deg, #cef2fa 0%, #59bfef 100%);
+  color: #fff;
+  flex-grow: 1;
+}

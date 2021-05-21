@@ -1,3 +1,9 @@
+# Для запуска `yarn start` или `npm start`
+Для авторизации:
+log: test@mail.ru (либо можно зарегистрировать любой свой)
+pass: 123456
+
+ 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

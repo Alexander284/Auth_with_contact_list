@@ -1,0 +1,41 @@
+.draver {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 80%;
+  max-width: 300px;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, .3);
+  transform: translateX(0px);
+  transition: transform .22s ease-in;
+  z-index: 90;
+}
+
+.draver.close {
+  transform: translateX(-300px);
+}
+
+.draver ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.draver ul li {
+  margin-bottom: 15px;
+}
+
+.draver ul li a {
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  position: relative;
+  padding: 0 20px 10px 20px;
+  transition: opacity .3s;
+}
+
+.draver ul li a:hover, .active {
+  opacity: .7;
+}
